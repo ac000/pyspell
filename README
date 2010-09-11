@@ -1,0 +1,36 @@
+Overview
+========
+
+pyspell is a basic PyGTK frontend to the Hunspell,
+http://hunspell.sourceforge.net/, spell checker.
+
+
+Usage
+=====
+
+	$ ./pyspell.py
+
+Upon starting you are presented with a simple display. Just enter the work
+you want to check and hit Enter. You will then be presented with standard
+Hunspell output.
+
+If all you get is something like;
+
+	Hunspell 1.2.8
+	*
+
+then the word is spelled correctly.
+
+If you misspell a word. You'll see something like;
+
+	Hunspell 1.2.8
+	& misspel 6 0: misspelt, misspell, misspeak, misspoke, misshapen, misstep
+
+Where you entered misspel
+
+If you spell a word correctly, you may also see output like;
+
+	Hunspell 1.2.8
+	+ spelt
+
+Where you put in misspelt 

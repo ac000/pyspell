@@ -5,6 +5,8 @@
 #
 # pyspell.py - A simple python frontend to hunspell
 #
+# License: GNU GPLv2. See COPYiNG
+#
 
 import pygtk
 pygtk.require('2.0')
